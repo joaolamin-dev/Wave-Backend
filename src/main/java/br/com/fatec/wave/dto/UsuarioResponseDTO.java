@@ -8,13 +8,11 @@ public class UsuarioResponseDTO {
 
     private String email;
 
-    private String senha;
 
-    public UsuarioResponseDTO(Long id, String nome, String email, String senha) {
+    public UsuarioResponseDTO(Long id, String nome, String email) {
         this.id = id;
         this.nome = nome;
         this.email = email;
-        this.senha = senha;
     }
 
     public Long getId() {
@@ -27,9 +25,5 @@ public class UsuarioResponseDTO {
 
     public String getEmail() {
         return email;
-    }
-
-    public String getSenha() {
-        return senha;
     }
 }

@@ -14,7 +14,7 @@ public interface UsuarioService {
 
     UsuarioResponseDTO criarUsuario(CriarUsuarioDTO criarUsuarioDTO);
 
-    UsuarioResponseDTO atualizarUsuario(AtualizarUsuarioDTO atualizarUsuarioDTO);
+    UsuarioResponseDTO atualizarUsuario(Long id, AtualizarUsuarioDTO atualizarUsuarioDTO);
 
     void deletarUsuario(Long id);
 }
